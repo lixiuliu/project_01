@@ -1,0 +1,17 @@
+# 忽略所有的 txt 文件
+*.txt
+
+# 以 hello.txt 结尾的文件不会忽略
+!hello.txt
+
+# 只忽略当前目录下的 test 文件夹, 不会忽略其他目录下的 test 文件夹
+/test
+
+# 忽略任意目录下名为 demo 的文件夹
+demo/
+
+# 忽略 image 下一级所有的 png 文件, 但不会忽略子目录下的 png 文件
+images/*.png
+
+# 忽略 image 下包括子目录中的 png 文件
+images/**/*.png
